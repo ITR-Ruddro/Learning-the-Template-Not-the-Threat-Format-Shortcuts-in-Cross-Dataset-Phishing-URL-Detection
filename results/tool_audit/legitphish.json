@@ -1,0 +1,267 @@
+{
+ "name": "LegitPhish",
+ "n": 101218,
+ "format_rule": {
+  "accuracy": 0.9953170384714182,
+  "balanced_accuracy": 0.993735938238008,
+  "f1_positive": 0.9962914280349263,
+  "mcc": 0.9899861689787621,
+  "tpr": 0.9998586639027608,
+  "fpr": 0.012386787426744816
+ },
+ "template_rule": {
+  "accuracy": 0.9940228022683713,
+  "balanced_accuracy": 0.9919419286094833,
+  "f1_positive": 0.9952719969365666,
+  "mcc": 0.9872304826876024,
+  "tpr": 1.0,
+  "fpr": 0.01611614278103357
+ },
+ "trivial": {
+  "accuracy": 0.6291173506688533,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.7723413545507472,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "nmi_cell_label": 0.9794060696892487,
+ "flags": [
+  "scheme=https: 100.0% of negatives vs 5.5% of positives",
+  "scheme=http: 0.0% of negatives vs 92.4% of positives",
+  "www: 99.1% of negatives vs 1.0% of positives",
+  "path: 1.4% of negatives vs 99.4% of positives",
+  "port: 0.0% of negatives vs 64.5% of positives",
+  "ip_host: 0.0% of negatives vs 77.0% of positives",
+  "format-only rule (4 cues, 24 cells) reaches MCC 0.990 / balanced accuracy 0.994 on this dataset",
+  "6 format cell(s) with >=100 URLs are >=99% one class, covering 95.5% of the data"
+ ],
+ "class_table": [
+  {
+   "index": "negative (0)",
+   "n": 37540.0,
+   "scheme=https": 99.98668087373468,
+   "scheme=http": 0.013319126265316995,
+   "scheme=none": 0.0,
+   "scheme=other": 0.0,
+   "www": 99.08630793819925,
+   "trailing_slash": 0.5274374001065529,
+   "path": 1.4224826851358552,
+   "query": 0.13585508790623335,
+   "port": 0.0,
+   "ip_host": 0.0,
+   "uppercase": 0.44752264251465107,
+   "median_length": 27.0
+  },
+  {
+   "index": "positive (1)",
+   "n": 63678.0,
+   "scheme=https": 5.532523006375829,
+   "scheme=http": 92.42438518797701,
+   "scheme=none": 2.0415214045667263,
+   "scheme=other": 0.0015704010804359432,
+   "www": 1.0411759163290304,
+   "trailing_slash": 1.3913753572662457,
+   "path": 99.39539558403216,
+   "query": 1.190364018970445,
+   "port": 64.52149879079117,
+   "ip_host": 77.03916580294607,
+   "uppercase": 21.998178334746694,
+   "median_length": 34.0
+  }
+ ],
+ "cell_table": [
+  {
+   "cell": "http|nowww|noslash|path",
+   "n_negative": 2,
+   "n_positive": 58456,
+   "n": 58458,
+   "share_positive": 0.9999657874029217,
+   "purity": 0.9999657874029217
+  },
+  {
+   "cell": "https|www|noslash|nopath",
+   "n_negative": 36935,
+   "n_positive": 0,
+   "n": 36935,
+   "share_positive": 0.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|path",
+   "n_negative": 271,
+   "n_positive": 3107,
+   "n": 3378,
+   "share_positive": 0.9197750148016578,
+   "purity": 0.9197750148016578
+  },
+  {
+   "cell": "none|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 657,
+   "n": 657,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|noslash|path",
+   "n_negative": 127,
+   "n_positive": 186,
+   "n": 313,
+   "share_positive": 0.5942492012779552,
+   "purity": 0.5942492012779552
+  },
+  {
+   "cell": "none|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 253,
+   "n": 253,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 252,
+   "n": 252,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|slash|nopath",
+   "n_negative": 2,
+   "n_positive": 196,
+   "n": 198,
+   "share_positive": 0.98989898989899,
+   "purity": 0.98989898989899
+  },
+  {
+   "cell": "https|nowww|slash|path",
+   "n_negative": 41,
+   "n_positive": 121,
+   "n": 162,
+   "share_positive": 0.7469135802469136,
+   "purity": 0.7469135802469136
+  },
+  {
+   "cell": "http|www|noslash|path",
+   "n_negative": 1,
+   "n_positive": 121,
+   "n": 122,
+   "share_positive": 0.9918032786885246,
+   "purity": 0.9918032786885246
+  },
+  {
+   "cell": "https|nowww|slash|nopath",
+   "n_negative": 21,
+   "n_positive": 100,
+   "n": 121,
+   "share_positive": 0.8264462809917356,
+   "purity": 0.8264462809917356
+  },
+  {
+   "cell": "https|www|slash|path",
+   "n_negative": 92,
+   "n_positive": 8,
+   "n": 100,
+   "share_positive": 0.08,
+   "purity": 0.92
+  },
+  {
+   "cell": "none|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 66,
+   "n": 66,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 63,
+   "n": 63,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|nowww|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 52,
+   "n": 52,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|slash|nopath",
+   "n_negative": 42,
+   "n_positive": 1,
+   "n": 43,
+   "share_positive": 0.023255813953488372,
+   "purity": 0.9767441860465116
+  },
+  {
+   "cell": "http|www|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 14,
+   "n": 14,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 11,
+   "n": 11,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 8,
+   "n": 8,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|nopath",
+   "n_negative": 6,
+   "n_positive": 0,
+   "n": 6,
+   "share_positive": 0.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 2,
+   "n": 2,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 2,
+   "n": 2,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "other|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  }
+ ]
+}

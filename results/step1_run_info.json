@@ -1,0 +1,12 @@
+{
+ "lightgbm": "4.7.0",
+ "sklearn": "1.8.0",
+ "fit_seconds": {
+  "42": 1.7,
+  "43": 0.9,
+  "44": 0.9
+ },
+ "total_seconds": 141,
+ "n_encoded_features": 1679,
+ "feature_source": "re-extracted from raw URLs"
+}

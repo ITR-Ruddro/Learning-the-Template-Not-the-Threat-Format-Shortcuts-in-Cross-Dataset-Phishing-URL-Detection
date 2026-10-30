@@ -1,0 +1,13 @@
+file,model,seed,group,n_legit,FPR
+charCNN-canonical_s42.csv.gz,charCNN-canonical,42,has path,23991,1.0
+charCNN-canonical_s42.csv.gz,charCNN-canonical,42,no path,75535,0.025312768915072482
+charCNN-canonical_s43.csv.gz,charCNN-canonical,43,has path,23991,1.0
+charCNN-canonical_s43.csv.gz,charCNN-canonical,43,no path,75535,0.05063877672602105
+charCNN-canonical_s44.csv.gz,charCNN-canonical,44,has path,23991,1.0
+charCNN-canonical_s44.csv.gz,charCNN-canonical,44,no path,75535,0.03112464420467333
+DistilBERT-canonical_s42.csv.gz,DistilBERT-canonical,42,has path,23991,0.9993747655370764
+DistilBERT-canonical_s42.csv.gz,DistilBERT-canonical,42,no path,75535,0.035811213344807045
+charCNN-canonical_s42.csv.gz,charCNN-canonical,42,has path,23991,1.0
+charCNN-canonical_s42.csv.gz,charCNN-canonical,42,no path,75535,0.025312768915072482
+charCNN-canonical_s43.csv.gz,charCNN-canonical,43,has path,23991,1.0
+charCNN-canonical_s43.csv.gz,charCNN-canonical,43,no path,75535,0.05063877672602105

@@ -1,0 +1,201 @@
+{
+ "name": "PhiUSIIL",
+ "n": 235795,
+ "format_rule": {
+  "accuracy": 0.997340910536695,
+  "balanced_accuracy": 0.9968943484075486,
+  "f1_positive": 0.9968846732881851,
+  "mcc": 0.9945799874537671,
+  "tpr": 0.9937886968150973,
+  "fpr": 0.0
+ },
+ "template_rule": {
+  "accuracy": 0.997340910536695,
+  "balanced_accuracy": 0.9968943484075486,
+  "f1_positive": 0.9968846732881851,
+  "mcc": 0.9945799874537671,
+  "tpr": 0.9937886968150973,
+  "fpr": 0.0
+ },
+ "trivial": {
+  "accuracy": 0.42810492164804176,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.5995426738730177,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "nmi_cell_label": 0.9751789467747429,
+ "flags": [
+  "scheme=https: 100.0% of negatives vs 48.7% of positives",
+  "scheme=http: 0.0% of negatives vs 51.3% of positives",
+  "www: 100.0% of negatives vs 41.4% of positives",
+  "trailing_slash: 0.0% of negatives vs 36.5% of positives",
+  "format-only rule (4 cues, 24 cells) reaches MCC 0.995 / balanced accuracy 0.997 on this dataset",
+  "16 format cell(s) with >=100 URLs are >=99% one class, covering 100.0% of the data"
+ ],
+ "class_table": [
+  {
+   "index": "negative (0)",
+   "n": 134850.0,
+   "scheme=https": 100.0,
+   "scheme=http": 0.0,
+   "scheme=none": 0.0,
+   "scheme=other": 0.0,
+   "www": 100.0,
+   "trailing_slash": 0.0,
+   "path": 0.0,
+   "query": 0.0,
+   "port": 0.0,
+   "ip_host": 0.0,
+   "uppercase": 0.0,
+   "median_length": 27.0
+  },
+  {
+   "index": "positive (1)",
+   "n": 100945.0,
+   "scheme=https": 48.7354499975234,
+   "scheme=http": 51.2645500024766,
+   "scheme=none": 0.0,
+   "scheme=other": 0.0,
+   "www": 41.35519342216058,
+   "trailing_slash": 36.46837386695726,
+   "path": 28.420426965179058,
+   "query": 6.0845014611917385,
+   "port": 0.025756600128783003,
+   "ip_host": 0.6023081876269255,
+   "uppercase": 0.0,
+   "median_length": 34.0
+  }
+ ],
+ "cell_table": [
+  {
+   "cell": "https|www|noslash|nopath",
+   "n_negative": 134850,
+   "n_positive": 627,
+   "n": 135477,
+   "share_positive": 0.0046280918532296995,
+   "purity": 0.9953719081467703
+  },
+  {
+   "cell": "http|www|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 36392,
+   "n": 36392,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 25823,
+   "n": 25823,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 16222,
+   "n": 16222,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 4920,
+   "n": 4920,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 4301,
+   "n": 4301,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 3077,
+   "n": 3077,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 1867,
+   "n": 1867,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 1625,
+   "n": 1625,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 1364,
+   "n": 1364,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 1267,
+   "n": 1267,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 1212,
+   "n": 1212,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 1210,
+   "n": 1210,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 428,
+   "n": 428,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 411,
+   "n": 411,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 199,
+   "n": 199,
+   "share_positive": 1.0,
+   "purity": 1.0
+  }
+ ]
+}

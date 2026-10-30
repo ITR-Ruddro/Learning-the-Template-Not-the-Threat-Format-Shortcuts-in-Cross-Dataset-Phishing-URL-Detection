@@ -1,0 +1,204 @@
+{
+ "name": "faizann24 malicious-URL",
+ "n": 420464,
+ "format_rule": {
+  "accuracy": 0.8306371056737318,
+  "balanced_accuracy": 0.529295506524067,
+  "f1_positive": 0.11069622229160163,
+  "mcc": 0.22036823270083694,
+  "tpr": 0.058591013048134,
+  "fpr": 0.0
+ },
+ "template_rule": {
+  "accuracy": 0.17990363027512463,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.3049463119851161,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "trivial": {
+  "accuracy": 0.17990363027512463,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.3049463119851161,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "nmi_cell_label": 0.05598181236312542,
+ "flags": [
+  "4 format cell(s) with >=100 URLs are >=99% one class, covering 1.0% of the data"
+ ],
+ "class_table": [
+  {
+   "index": "negative (0)",
+   "n": 344821.0,
+   "scheme=https": 0.0,
+   "scheme=http": 0.0,
+   "scheme=none": 100.0,
+   "scheme=other": 0.0,
+   "www": 0.0,
+   "trailing_slash": 26.26551167127292,
+   "path": 87.26295672247339,
+   "query": 13.687681434715405,
+   "port": 0.03132059822342607,
+   "ip_host": 0.00754014401675072,
+   "uppercase": 35.20638244190464,
+   "median_length": 42.0
+  },
+  {
+   "index": "positive (1)",
+   "n": 75643.0,
+   "scheme=https": 0.009253995743161958,
+   "scheme=http": 0.13219993918802797,
+   "scheme=none": 99.84400407175814,
+   "scheme=other": 0.014541993310683078,
+   "www": 2.9665666353793476,
+   "trailing_slash": 25.32422035085864,
+   "path": 92.66422537445634,
+   "query": 16.097986594926166,
+   "port": 1.9816770884285393,
+   "ip_host": 5.396401517655302,
+   "uppercase": 25.119310445117193,
+   "median_length": 38.0
+  }
+ ],
+ "cell_table": [
+  {
+   "cell": "none|nowww|noslash|path",
+   "n_negative": 254252,
+   "n_positive": 52438,
+   "n": 306690,
+   "share_positive": 0.17098046887736804,
+   "purity": 0.8290195311226319
+  },
+  {
+   "cell": "none|nowww|slash|path",
+   "n_negative": 46649,
+   "n_positive": 15531,
+   "n": 62180,
+   "share_positive": 0.2497748472177549,
+   "purity": 0.7502251527822451
+  },
+  {
+   "cell": "none|nowww|slash|nopath",
+   "n_negative": 43920,
+   "n_positive": 3242,
+   "n": 47162,
+   "share_positive": 0.06874178363937068,
+   "purity": 0.9312582163606293
+  },
+  {
+   "cell": "none|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 2101,
+   "n": 2101,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 1814,
+   "n": 1814,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 194,
+   "n": 194,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 170,
+   "n": 170,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 57,
+   "n": 57,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|www|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 35,
+   "n": 35,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 25,
+   "n": 25,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 15,
+   "n": 15,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "other|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 9,
+   "n": 9,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 4,
+   "n": 4,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|slash|path",
+   "n_negative": 0,
+   "n_positive": 3,
+   "n": 3,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|www|noslash|path",
+   "n_negative": 0,
+   "n_positive": 3,
+   "n": 3,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "other|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "other|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  }
+ ]
+}

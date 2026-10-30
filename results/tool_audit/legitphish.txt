@@ -1,0 +1,35 @@
+# LegitPhish: 101,218 URLs (62.9% positive)
+
+Format properties (% of URLs per class):
+                    n  scheme=https  scheme=http  scheme=none  scheme=other   www  trailing_slash  path  query  port  ip_host  uppercase  median_length
+negative (0)  37540.0         100.0          0.0          0.0           0.0  99.1             0.5   1.4    0.1   0.0      0.0        0.4           27.0
+positive (1)  63678.0           5.5         92.4          2.0           0.0   1.0             1.4  99.4    1.2  64.5     77.0       22.0           34.0 
+
+Format cells (scheme|www|slash|path), top 10:
+                          n_negative  n_positive      n  share_positive  purity
+cell                                                                           
+http|nowww|noslash|path            2       58456  58458           1.000   1.000
+https|www|noslash|nopath       36935           0  36935           0.000   1.000
+https|nowww|noslash|path         271        3107   3378           0.920   0.920
+none|nowww|noslash|path            0         657    657           1.000   1.000
+https|www|noslash|path           127         186    313           0.594   0.594
+none|www|noslash|path              0         253    253           1.000   1.000
+none|nowww|slash|path              0         252    252           1.000   1.000
+http|nowww|slash|nopath            2         196    198           0.990   0.990
+https|nowww|slash|path            41         121    162           0.747   0.747
+http|www|noslash|path              1         121    122           0.992   0.992 
+
+Format-only rule (majority per cell):   accuracy=0.995  balanced_accuracy=0.994  f1_positive=0.996  mcc=0.990  tpr=1.000  fpr=0.012
+Template rule (legit iff ^https://www.<host>$): accuracy=0.994  balanced_accuracy=0.992  f1_positive=0.995  mcc=0.987  tpr=1.000  fpr=0.016
+Trivial (all positive):                 accuracy=0.629  balanced_accuracy=0.500  f1_positive=0.772  mcc=0.000  tpr=1.000  fpr=1.000
+Normalized mutual information I(cell;label)/H(label) = 0.979
+
+Shortcut flags:
+  - scheme=https: 100.0% of negatives vs 5.5% of positives
+  - scheme=http: 0.0% of negatives vs 92.4% of positives
+  - www: 99.1% of negatives vs 1.0% of positives
+  - path: 1.4% of negatives vs 99.4% of positives
+  - port: 0.0% of negatives vs 64.5% of positives
+  - ip_host: 0.0% of negatives vs 77.0% of positives
+  - format-only rule (4 cues, 24 cells) reaches MCC 0.990 / balanced accuracy 0.994 on this dataset
+  - 6 format cell(s) with >=100 URLs are >=99% one class, covering 95.5% of the data

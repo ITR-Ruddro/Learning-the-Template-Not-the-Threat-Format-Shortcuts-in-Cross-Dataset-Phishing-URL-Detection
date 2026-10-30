@@ -1,0 +1,250 @@
+key,column,value,file
+E1/LightGBM/URL-Phish,F1,0.2691988232418268,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,F1,0.2580144530982587,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,F1,0.2580352208950417,results/step3_E1_transfer.csv
+rule/PhiUSIIL test/template,F1_phishing,0.9969,results/step0_format_rule_baselines.csv
+rule/URL-Phish cohort/template,F1_phishing,0.2581,results/step0_format_rule_baselines.csv
+rule/URL-Phish cohort/template,FPR_legit,0.9575,results/step0_format_rule_baselines.csv
+rule/LegitPhish cohort/template,F1_phishing,0.9953,results/step0_format_rule_baselines.csv
+rule/PhiUSIIL test/template,pct_legit_matching,100.0,results/step0_format_rule_baselines.csv
+audit/PhiUSIIL/test/legitimate,n,26987.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_https,100.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_http,0.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_www,100.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_trailing_slash,0.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_path_beyond_root,0.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,pct_ip_host,0.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/legitimate,median_length,27.0,results/step0_scheme_audit.csv
+rule/PhiUSIIL test/template,pct_phish_matching,0.62,results/step0_format_rule_baselines.csv
+audit/PhiUSIIL/test/phishing,n,20161.0,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_https,48.7,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_http,51.3,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_www,41.31,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_trailing_slash,36.41,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_path_beyond_root,28.44,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,pct_ip_host,0.62,results/step0_scheme_audit.csv
+audit/PhiUSIIL/test/phishing,median_length,34.0,results/step0_scheme_audit.csv
+rule/URL-Phish cohort/template,pct_legit_matching,4.25,results/step0_format_rule_baselines.csv
+audit/URL-Phish/evaluated cohort/legitimate,n,99526.0,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_https,34.78,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_http,65.22,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_www,75.98,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_trailing_slash,74.79,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_path_beyond_root,24.13,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,pct_ip_host,0.01,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/legitimate,median_length,26.0,results/step0_scheme_audit.csv
+rule/URL-Phish cohort/template,pct_phish_matching,0.14,results/step0_format_rule_baselines.csv
+audit/URL-Phish/evaluated cohort/phishing,n,16600.0,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_https,91.43,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_http,8.57,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_www,2.52,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_trailing_slash,40.49,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_path_beyond_root,58.03,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,pct_ip_host,0.04,results/step0_scheme_audit.csv
+audit/URL-Phish/evaluated cohort/phishing,median_length,38.0,results/step0_scheme_audit.csv
+rule/LegitPhish cohort/template,pct_legit_matching,92.52,results/step0_format_rule_baselines.csv
+audit/LegitPhish/evaluated cohort/legitimate,n,8089.0,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_https,99.94,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_http,0.06,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_www,95.76,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_trailing_slash,2.45,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_path_beyond_root,6.6,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,pct_ip_host,0.0,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/legitimate,median_length,27.0,results/step0_scheme_audit.csv
+rule/LegitPhish cohort/template,pct_phish_matching,0.0,results/step0_format_rule_baselines.csv
+audit/LegitPhish/evaluated cohort/phishing,n,63678.0,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_https,5.53,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_http,92.42,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_www,1.04,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_trailing_slash,1.39,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_path_beyond_root,99.4,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_ip_host,77.04,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,median_length,34.0,results/step0_scheme_audit.csv
+audit/LegitPhish/evaluated cohort/phishing,pct_no_scheme,2.04,results/step0_scheme_audit.csv
+E1/LightGBM/PhiUSIIL test,F1,0.9843662796106302,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,F1_lo,0.9831523327216908,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,F1_hi,0.9854629633608608,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,PR_AUC,0.9977671634796642,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,PR_AUC_seed_sd,7.777703801112539e-05,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,FPR,0.0068057459764578,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,TPR_at_valFPR1,0.9839128350114908,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,achFPR_valthr,0.0100912785168167,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,TPR_at_oracleFPR1,0.9836813650116562,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,achFPR_oraclethr,0.0099554106298094,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,Brier,0.0101584185650297,results/step3_E1_transfer.csv
+E1/LightGBM/PhiUSIIL test,ECE15,0.0151303794745512,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,F1,0.9977050338949168,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,F1_lo,0.9972479414927424,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,F1_hi,0.998145618765434,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,PR_AUC,0.999034452439048,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,PR_AUC_seed_sd,9.451025168725642e-05,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,FPR,7.410975654944975e-05,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,TPR_at_valFPR1,0.9965940842881472,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,achFPR_valthr,0.0100789268907251,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,TPR_at_oracleFPR1,0.9965775507167304,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,achFPR_oraclethr,0.0099677622559009,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,Brier,0.0018868633711606,results/step3_E1_transfer.csv
+E1/charCNN/PhiUSIIL test,ECE15,0.0023233851344195,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,F1,0.9979877584438108,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,F1_lo,0.997564581638041,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,F1_hi,0.9983868109278028,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,PR_AUC,0.9992222383886664,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,PR_AUC_seed_sd,2.4800775616591437e-05,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,FPR,0.0002346808957399,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,TPR_at_valFPR1,0.9969247557164824,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,achFPR_valthr,0.009560158594879,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,TPR_at_oracleFPR1,0.9969247557164824,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,achFPR_oraclethr,0.0097701362384357,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,Brier,0.0016205532465567,results/step3_E1_transfer.csv
+E1/DistilBERT/PhiUSIIL test,ECE15,0.000820190084101,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,F1_lo,0.2677918461375905,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,F1_hi,0.2706398756734987,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,PR_AUC,0.2293780145209401,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,PR_AUC_seed_sd,0.0356292036517609,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,FPR,0.7823851723837657,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,TPR_at_valFPR1,0.9079116465863454,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,achFPR_valthr,0.793002163588744,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,TPR_at_oracleFPR1,0.0427309236947791,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,achFPR_oraclethr,0.0099739431572319,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,Brier,0.6611705154214689,results/step3_E1_transfer.csv
+E1/LightGBM/URL-Phish,ECE15,0.6641894691024287,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,F1_lo,0.2576570179487112,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,F1_hi,0.2583729659624554,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,PR_AUC,0.1438066961371366,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,PR_AUC_seed_sd,0.0152764434902097,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,FPR,0.957284193745018,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,TPR_at_valFPR1,0.9987349397590362,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,achFPR_valthr,0.95840282941141,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,TPR_at_oracleFPR1,0.0170883534136546,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,achFPR_oraclethr,0.009997387617306,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,Brier,0.8195471018918034,results/step3_E1_transfer.csv
+E1/charCNN/URL-Phish,ECE15,0.8200258273905341,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,F1_lo,0.2576790311305302,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,F1_hi,0.2583855989709748,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,PR_AUC,0.3789191741683155,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,PR_AUC_seed_sd,0.2031389400541654,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,FPR,0.9574516541741186,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,TPR_at_valFPR1,0.9993172690763052,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,achFPR_valthr,0.9579506862528384,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,TPR_at_oracleFPR1,0.0071285140562249,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,achFPR_oraclethr,0.0003583653182752,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,Brier,0.8207394625768272,results/step3_E1_transfer.csv
+E1/DistilBERT/URL-Phish,ECE15,0.8207136691764455,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,F1,0.9951868817677332,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,F1_lo,0.9947109892385918,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,F1_hi,0.9956493885115554,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,PR_AUC,0.9996663083837308,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,PR_AUC_seed_sd,0.0001877499191767,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,FPR,0.0725676845098281,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,TPR_at_valFPR1,0.9998638985730288,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,achFPR_valthr,0.0763176329995467,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,TPR_at_oracleFPR1,0.939178366154716,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,achFPR_oraclethr,0.0092306424362302,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,Brier,0.0080823527541646,results/step3_E1_transfer.csv
+E1/LightGBM/LegitPhish,ECE15,0.0071392677174397,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,F1,0.9952641450044184,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,F1_lo,0.9947899844270176,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,F1_hi,0.9957470400984916,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,PR_AUC,0.999860799126808,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,PR_AUC_seed_sd,1.4384192907320876e-05,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,FPR,0.0747929286685622,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,TPR_at_valFPR1,1.0,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,achFPR_valthr,0.0831994066015576,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,TPR_at_oracleFPR1,0.9672833108242512,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,achFPR_oraclethr,0.0098899740388181,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,Brier,0.0084413504260281,results/step3_E1_transfer.csv
+E1/charCNN/LegitPhish,ECE15,0.0090983125625071,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,F1,0.9952381200739971,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,F1_lo,0.9947586999335548,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,F1_hi,0.9957263453292704,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,PR_AUC,0.99749657093233,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,PR_AUC_seed_sd,0.0004468418854091,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,FPR,0.0750401780195327,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,TPR_at_valFPR1,1.0,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,achFPR_valthr,0.0834466559525281,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,TPR_at_oracleFPR1,0.1967241433462106,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,achFPR_oraclethr,0.0032966580129393,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,Brier,0.0084785352225777,results/step3_E1_transfer.csv
+E1/DistilBERT/LegitPhish,ECE15,0.0085994421432974,results/step3_E1_transfer.csv
+E2/LightGBM/IsHTTPS_flip/all/URL-Phish/legitimate,pct_errors_corrected,0.5747576721969824,results/step4_E2_counterfactual.csv
+E2/LightGBM/swap/http->https/URL-Phish/legitimate,pct_errors_corrected,0.6769326369523574,results/step4_E2_counterfactual.csv
+E2/charCNN/swap/http->https/URL-Phish/legitimate,pct_errors_corrected,0.0357691260829597,results/step4_E2_counterfactual.csv
+E2/DistilBERT/swap/http->https/URL-Phish/legitimate,pct_errors_corrected,0.0355945172837033,results/step4_E2_counterfactual.csv
+E2/LightGBM/noscheme/all/URL-Phish/legitimate,pct_errors_corrected,0.0,results/step4_E2_counterfactual.csv
+E2/charCNN/noscheme/all/URL-Phish/legitimate,pct_errors_corrected,0.035461962162485,results/step4_E2_counterfactual.csv
+E2/DistilBERT/noscheme/all/URL-Phish/legitimate,pct_errors_corrected,0.0604111752136338,results/step4_E2_counterfactual.csv
+E2/LightGBM/noslash/all/URL-Phish/legitimate,pct_errors_corrected,0.0139536102521406,results/step4_E2_counterfactual.csv
+E2/charCNN/noslash/all/URL-Phish/legitimate,pct_errors_corrected,0.1885623971983979,results/step4_E2_counterfactual.csv
+E2/DistilBERT/noslash/all/URL-Phish/legitimate,pct_errors_corrected,0.188319742787159,results/step4_E2_counterfactual.csv
+E2/LightGBM/canonical/all/URL-Phish/legitimate,pct_errors_corrected,0.0,results/step4_E2_counterfactual.csv
+E2/charCNN/canonical/all/URL-Phish/legitimate,pct_errors_corrected,0.3259362912098549,results/step4_E2_counterfactual.csv
+E2/DistilBERT/canonical/all/URL-Phish/legitimate,pct_errors_corrected,0.5899241509772671,results/step4_E2_counterfactual.csv
+E2/LightGBM/template/all/URL-Phish/legitimate,pct_errors_corrected,0.8326338404304549,results/step4_E2_counterfactual.csv
+E2/charCNN/template/all/URL-Phish/legitimate,pct_errors_corrected,0.7796631396726271,results/step4_E2_counterfactual.csv
+E2/DistilBERT/template/all/URL-Phish/legitimate,pct_errors_corrected,0.7785567751515496,results/step4_E2_counterfactual.csv
+E2/LightGBM/swap/https->http/PhiUSIIL test/legitimate,flip_rate,0.993194254023542,results/step4_E2_counterfactual.csv
+E2/charCNN/swap/https->http/PhiUSIIL test/legitimate,flip_rate,0.9999258902434506,results/step4_E2_counterfactual.csv
+E2/DistilBERT/swap/https->http/PhiUSIIL test/legitimate,flip_rate,0.99976531910426,results/step4_E2_counterfactual.csv
+E2/LightGBM/swap/https->http/PhiUSIIL test/legitimate,mean_dlogit,8.197908965279577,results/step4_E2_counterfactual.csv
+E2/charCNN/swap/https->http/PhiUSIIL test/legitimate,mean_dlogit,24.203361086226703,results/step4_E2_counterfactual.csv
+E2/DistilBERT/swap/https->http/PhiUSIIL test/legitimate,mean_dlogit,18.58187538307333,results/step4_E2_counterfactual.csv
+E4/charCNN/noscheme/PhiUSIIL test,dF1,-0.1128669537699478,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/PhiUSIIL test,dF1_lo,-0.1161596470312136,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/PhiUSIIL test,dF1_hi,-0.1094339526500375,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,F1_a,0.2580144530982587,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,F1_b,0.2644968502536082,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,PR_AUC_a,0.1438066961371366,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,PR_AUC_b,0.5913245565014235,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,FPR_a,0.957284193745018,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/URL-Phish,FPR_b,0.9265217129192372,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/noscheme/LegitPhish,dF1,-0.0007383422034806,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/PhiUSIIL test,dF1,-0.1147527831969985,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/PhiUSIIL test,dF1_lo,-0.1181258388352308,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/PhiUSIIL test,dF1_hi,-0.1113348287472149,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,F1_a,0.2580144530982587,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,F1_b,0.2627268816889962,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,PR_AUC_a,0.1438066961371366,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,PR_AUC_b,0.7458312796349053,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,FPR_a,0.957284193745018,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/URL-Phish,FPR_b,0.9349114804171772,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/swapaug/LegitPhish,dF1,-0.0007925467587962,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/PhiUSIIL test,dF1,-0.1329743239942171,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/PhiUSIIL test,dF1_lo,-0.1366496832632611,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/PhiUSIIL test,dF1_hi,-0.1294206678026969,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,F1_a,0.2580144530982587,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,F1_b,0.5421997197058214,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,PR_AUC_a,0.1438066961371366,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,PR_AUC_b,0.5208439439661163,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,FPR_a,0.957284193745018,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/URL-Phish,FPR_b,0.2681409882844683,results/step6_E4_charCNN_paired_delta.csv
+E4/charCNN/canonical/LegitPhish,dF1,-0.000778419869405,results/step6_E4_charCNN_paired_delta.csv
+E4/DistilBERT/noscheme/PhiUSIIL test,dF1,-0.1026830372097865,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/PhiUSIIL test,dF1_lo,-0.1060592137760119,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/PhiUSIIL test,dF1_hi,-0.0994521052203682,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,F1_a,0.2580137935329192,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,F1_b,0.2671530143086053,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,PR_AUC_a,0.1749951249474123,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,PR_AUC_b,0.7602810638666243,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,FPR_a,0.9574684002170288,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/URL-Phish,FPR_b,0.9143540381407872,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/noscheme/LegitPhish,dF1,-0.0014134543595558,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/PhiUSIIL test,dF1,-0.1060939716507789,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/PhiUSIIL test,dF1_lo,-0.1093489940338924,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/PhiUSIIL test,dF1_hi,-0.1026813144059856,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,F1_a,0.2580137935329192,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,F1_b,0.263963591228796,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,PR_AUC_a,0.1749951249474123,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,PR_AUC_b,0.7100009970655716,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,FPR_a,0.9574684002170288,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/URL-Phish,FPR_b,0.9293651910053654,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/swapaug/LegitPhish,dF1,-0.0007925312168088,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/PhiUSIIL test,dF1,-0.1129796228444721,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/PhiUSIIL test,dF1_lo,-0.116317812051279,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/PhiUSIIL test,dF1_hi,-0.1096916079805816,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,F1_a,0.2580137935329192,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,F1_b,0.5455675784662948,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,PR_AUC_a,0.1749951249474123,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,PR_AUC_b,0.5502269540982447,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,FPR_a,0.9574684002170288,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/URL-Phish,FPR_b,0.2680807025299921,results/step6_E4_DistilBERT_paired_delta.csv
+E4/DistilBERT/canonical/LegitPhish,dF1,-0.0008109320071486,results/step6_E4_DistilBERT_paired_delta.csv

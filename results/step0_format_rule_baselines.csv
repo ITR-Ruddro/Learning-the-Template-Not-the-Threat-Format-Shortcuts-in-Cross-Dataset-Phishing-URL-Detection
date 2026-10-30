@@ -1,0 +1,13 @@
+set,rule,n,pct_legit_matching,pct_phish_matching,accuracy,F1_phishing,FPR_legit,TPR
+PhiUSIIL test,template ^https://www.<host>$ -> legit,47148,100.0,0.62,0.9974,0.9969,0.0,0.9938
+PhiUSIIL test,scheme https -> legit,47148,100.0,48.7,0.7917,0.6781,0.0,0.513
+PhiUSIIL test,no trailing slash -> legit,47148,100.0,63.59,0.7281,0.5338,0.0,0.3641
+PhiUSIIL test,host starts www. -> legit,47148,100.0,41.32,0.8233,0.7396,0.0,0.5868
+URL-Phish cohort,template ^https://www.<host>$ -> legit,116126,4.25,0.14,0.1791,0.2581,0.9575,0.9986
+URL-Phish cohort,scheme https -> legit,116126,34.78,91.43,0.3104,0.0343,0.6522,0.0857
+URL-Phish cohort,no trailing slash -> legit,116126,25.21,59.51,0.2739,0.1375,0.7479,0.4049
+URL-Phish cohort,host starts www. -> legit,116126,75.98,2.53,0.7905,0.5708,0.2402,0.9747
+LegitPhish cohort,template ^https://www.<host>$ -> legit,71767,92.52,0.0,0.9916,0.9953,0.0748,1.0
+LegitPhish cohort,scheme https -> legit,71767,99.94,5.53,0.9508,0.9715,0.0006,0.9447
+LegitPhish cohort,no trailing slash -> legit,71767,97.55,98.61,0.1223,0.0274,0.0245,0.0139
+LegitPhish cohort,host starts www. -> legit,71767,95.76,0.52,0.9906,0.9947,0.0424,0.9948

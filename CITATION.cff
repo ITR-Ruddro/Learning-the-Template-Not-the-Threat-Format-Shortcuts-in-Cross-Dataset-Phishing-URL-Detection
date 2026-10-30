@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Learning the Template, Not the Threat: Raw-URL Text Models Inherit Format Shortcuts in Cross-Dataset Phishing Detection"
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+date-released: 2026-10-29
+license: MIT
+# Add the conference name, DOI and repository URL after acceptance.

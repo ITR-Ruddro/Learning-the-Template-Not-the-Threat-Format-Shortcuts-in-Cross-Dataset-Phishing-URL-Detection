@@ -1,0 +1,145 @@
+set,label,cell,n,share_pred_phishing,mean_logit,class,model
+LegitPhish,0,https|nowww|noslash|nopath,8089,1.0,10.87217884534553,legitimate,DistilBERT
+LegitPhish,0,https|nowww|noslash|path,8089,1.0,10.923911908764989,legitimate,DistilBERT
+LegitPhish,0,https|nowww|slash|nopath,8089,1.0,11.009078687105946,legitimate,DistilBERT
+LegitPhish,0,https|nowww|slash|path,8089,1.0,11.040649338607986,legitimate,DistilBERT
+LegitPhish,0,https|www|noslash|nopath,8089,0.0002472493509704537,-6.42389646062554,legitimate,DistilBERT
+LegitPhish,0,https|www|noslash|path,8089,0.06626282606008159,-5.315970187909507,legitimate,DistilBERT
+LegitPhish,0,https|www|slash|nopath,8089,1.0,9.014622481147237,legitimate,DistilBERT
+LegitPhish,0,https|www|slash|path,8089,1.0,9.132262949684756,legitimate,DistilBERT
+LegitPhish,0,http|nowww|noslash|nopath,8089,1.0,11.490728149338608,legitimate,DistilBERT
+LegitPhish,0,http|nowww|noslash|path,8089,1.0,11.496213994313266,legitimate,DistilBERT
+LegitPhish,0,http|nowww|slash|nopath,8089,1.0,11.558142230189146,legitimate,DistilBERT
+LegitPhish,0,http|nowww|slash|path,8089,1.0,11.559092594881939,legitimate,DistilBERT
+LegitPhish,0,http|www|noslash|nopath,8089,1.0,11.382873346519965,legitimate,DistilBERT
+LegitPhish,0,http|www|noslash|path,8089,1.0,11.394509519100012,legitimate,DistilBERT
+LegitPhish,0,http|www|slash|nopath,8089,1.0,11.495657683273581,legitimate,DistilBERT
+LegitPhish,0,http|www|slash|path,8089,1.0,11.499830016071208,legitimate,DistilBERT
+LegitPhish,0,none|nowww|noslash|nopath,8089,0.29064161206576833,-0.8575730720731859,legitimate,DistilBERT
+LegitPhish,0,none|nowww|noslash|path,8089,0.33032513289652615,-0.15212908394115465,legitimate,DistilBERT
+LegitPhish,0,none|nowww|slash|nopath,8089,1.0,9.827593800222525,legitimate,DistilBERT
+LegitPhish,0,none|nowww|slash|path,8089,1.0,9.891009395475336,legitimate,DistilBERT
+LegitPhish,0,none|www|noslash|nopath,8089,0.0018543701322784028,-5.619811018667326,legitimate,DistilBERT
+LegitPhish,0,none|www|noslash|path,8089,0.06737544813944864,-4.583364677957721,legitimate,DistilBERT
+LegitPhish,0,none|www|slash|nopath,8089,0.9998763753245148,8.516092212881691,legitimate,DistilBERT
+LegitPhish,0,none|www|slash|path,8089,0.9998763753245148,8.65936741748053,legitimate,DistilBERT
+LegitPhish,1,https|nowww|noslash|nopath,10000,0.9994,11.036462891,phishing,DistilBERT
+LegitPhish,1,https|nowww|noslash|path,10000,1.0,11.440975,phishing,DistilBERT
+LegitPhish,1,https|nowww|slash|nopath,10000,1.0,11.33966875,phishing,DistilBERT
+LegitPhish,1,https|nowww|slash|path,10000,1.0,11.52793125,phishing,DistilBERT
+LegitPhish,1,https|www|noslash|nopath,10000,0.7462,4.96348971,phishing,DistilBERT
+LegitPhish,1,https|www|noslash|path,10000,0.9968,11.104271872,phishing,DistilBERT
+LegitPhish,1,https|www|slash|nopath,10000,1.0,10.676740625,phishing,DistilBERT
+LegitPhish,1,https|www|slash|path,10000,1.0,11.382375,phishing,DistilBERT
+LegitPhish,1,http|nowww|noslash|nopath,10000,1.0,11.42023125,phishing,DistilBERT
+LegitPhish,1,http|nowww|noslash|path,10000,1.0,11.52619375,phishing,DistilBERT
+LegitPhish,1,http|nowww|slash|nopath,10000,1.0,11.51731875,phishing,DistilBERT
+LegitPhish,1,http|nowww|slash|path,10000,1.0,11.5598,phishing,DistilBERT
+LegitPhish,1,http|www|noslash|nopath,10000,1.0,11.36660625,phishing,DistilBERT
+LegitPhish,1,http|www|noslash|path,10000,1.0,11.513625,phishing,DistilBERT
+LegitPhish,1,http|www|slash|nopath,10000,1.0,11.494075,phishing,DistilBERT
+LegitPhish,1,http|www|slash|path,10000,1.0,11.55084375,phishing,DistilBERT
+LegitPhish,1,none|nowww|noslash|nopath,10000,0.8819,7.461179122,phishing,DistilBERT
+LegitPhish,1,none|nowww|noslash|path,10000,0.9995,10.636554004999999,phishing,DistilBERT
+LegitPhish,1,none|nowww|slash|nopath,10000,1.0,10.65189375,phishing,DistilBERT
+LegitPhish,1,none|nowww|slash|path,10000,1.0,11.23926875,phishing,DistilBERT
+LegitPhish,1,none|www|noslash|nopath,10000,0.7996,6.052355263,phishing,DistilBERT
+LegitPhish,1,none|www|noslash|path,10000,0.997,10.936996094000001,phishing,DistilBERT
+LegitPhish,1,none|www|slash|nopath,10000,1.0,10.582485937000001,phishing,DistilBERT
+LegitPhish,1,none|www|slash|path,10000,1.0,11.318796875,phishing,DistilBERT
+PhiUSIIL test,0,https|nowww|noslash|nopath,10000,0.9997,10.901478125,legitimate,DistilBERT
+PhiUSIIL test,0,https|nowww|noslash|path,10000,0.9997,10.901478125,legitimate,DistilBERT
+PhiUSIIL test,0,https|nowww|slash|nopath,10000,1.0,11.01975,legitimate,DistilBERT
+PhiUSIIL test,0,https|nowww|slash|path,10000,1.0,11.01975,legitimate,DistilBERT
+PhiUSIIL test,0,https|www|noslash|nopath,10000,0.0004,-6.461319534,legitimate,DistilBERT
+PhiUSIIL test,0,https|www|noslash|path,10000,0.0004,-6.461319534,legitimate,DistilBERT
+PhiUSIIL test,0,https|www|slash|nopath,10000,1.0,8.988325,legitimate,DistilBERT
+PhiUSIIL test,0,https|www|slash|path,10000,1.0,8.988325,legitimate,DistilBERT
+PhiUSIIL test,0,http|nowww|noslash|nopath,10000,1.0,11.49123125,legitimate,DistilBERT
+PhiUSIIL test,0,http|nowww|noslash|path,10000,1.0,11.49123125,legitimate,DistilBERT
+PhiUSIIL test,0,http|nowww|slash|nopath,10000,1.0,11.55875625,legitimate,DistilBERT
+PhiUSIIL test,0,http|nowww|slash|path,10000,1.0,11.55875625,legitimate,DistilBERT
+PhiUSIIL test,0,http|www|noslash|nopath,10000,1.0,11.38601875,legitimate,DistilBERT
+PhiUSIIL test,0,http|www|noslash|path,10000,1.0,11.38601875,legitimate,DistilBERT
+PhiUSIIL test,0,http|www|slash|nopath,10000,1.0,11.49958125,legitimate,DistilBERT
+PhiUSIIL test,0,http|www|slash|path,10000,1.0,11.49958125,legitimate,DistilBERT
+PhiUSIIL test,0,none|nowww|noslash|nopath,10000,0.28,-0.935416799,legitimate,DistilBERT
+PhiUSIIL test,0,none|nowww|noslash|path,10000,0.28,-0.935416799,legitimate,DistilBERT
+PhiUSIIL test,0,none|nowww|slash|nopath,10000,1.0,9.808303125,legitimate,DistilBERT
+PhiUSIIL test,0,none|nowww|slash|path,10000,1.0,9.808303125,legitimate,DistilBERT
+PhiUSIIL test,0,none|www|noslash|nopath,10000,0.0025,-5.648843791,legitimate,DistilBERT
+PhiUSIIL test,0,none|www|noslash|path,10000,0.0025,-5.648843791,legitimate,DistilBERT
+PhiUSIIL test,0,none|www|slash|nopath,10000,1.0,8.490025294999999,legitimate,DistilBERT
+PhiUSIIL test,0,none|www|slash|path,10000,1.0,8.490025294999999,legitimate,DistilBERT
+PhiUSIIL test,1,https|nowww|noslash|nopath,10000,0.9978,11.282104443,phishing,DistilBERT
+PhiUSIIL test,1,https|nowww|noslash|path,10000,0.9988,11.382398973,phishing,DistilBERT
+PhiUSIIL test,1,https|nowww|slash|nopath,10000,1.0,11.426903125,phishing,DistilBERT
+PhiUSIIL test,1,https|nowww|slash|path,10000,1.0,11.477978125,phishing,DistilBERT
+PhiUSIIL test,1,https|www|noslash|nopath,10000,0.345,-0.5945874560000001,phishing,DistilBERT
+PhiUSIIL test,1,https|www|noslash|path,10000,0.5453,2.943365033,phishing,DistilBERT
+PhiUSIIL test,1,https|www|slash|nopath,10000,1.0,10.113071875,phishing,DistilBERT
+PhiUSIIL test,1,https|www|slash|path,10000,1.0,10.518109375,phishing,DistilBERT
+PhiUSIIL test,1,http|nowww|noslash|nopath,10000,1.0,11.53105625,phishing,DistilBERT
+PhiUSIIL test,1,http|nowww|noslash|path,10000,1.0,11.54900625,phishing,DistilBERT
+PhiUSIIL test,1,http|nowww|slash|nopath,10000,1.0,11.59975,phishing,DistilBERT
+PhiUSIIL test,1,http|nowww|slash|path,10000,1.0,11.602325,phishing,DistilBERT
+PhiUSIIL test,1,http|www|noslash|nopath,10000,1.0,11.45381875,phishing,DistilBERT
+PhiUSIIL test,1,http|www|noslash|path,10000,1.0,11.490575,phishing,DistilBERT
+PhiUSIIL test,1,http|www|slash|nopath,10000,1.0,11.56335,phishing,DistilBERT
+PhiUSIIL test,1,http|www|slash|path,10000,1.0,11.5721,phishing,DistilBERT
+PhiUSIIL test,1,none|nowww|noslash|nopath,10000,0.7519,4.741507917,phishing,DistilBERT
+PhiUSIIL test,1,none|nowww|noslash|path,10000,0.8241,6.733090948,phishing,DistilBERT
+PhiUSIIL test,1,none|nowww|slash|nopath,10000,1.0,10.703221875,phishing,DistilBERT
+PhiUSIIL test,1,none|nowww|slash|path,10000,1.0,10.936775,phishing,DistilBERT
+PhiUSIIL test,1,none|www|noslash|nopath,10000,0.3824,0.42799843600000004,phishing,DistilBERT
+PhiUSIIL test,1,none|www|noslash|path,10000,0.5733,3.650123272,phishing,DistilBERT
+PhiUSIIL test,1,none|www|slash|nopath,10000,0.9999,9.961678125,phishing,DistilBERT
+PhiUSIIL test,1,none|www|slash|path,10000,0.9999,10.405698438,phishing,DistilBERT
+URL-Phish,0,https|nowww|noslash|nopath,10000,0.9969,10.823589844,legitimate,DistilBERT
+URL-Phish,0,https|nowww|noslash|path,10000,0.9987,10.965404688,legitimate,DistilBERT
+URL-Phish,0,https|nowww|slash|nopath,10000,1.0,10.99958125,legitimate,DistilBERT
+URL-Phish,0,https|nowww|slash|path,10000,1.0,11.10596875,legitimate,DistilBERT
+URL-Phish,0,https|www|noslash|nopath,10000,0.002,-6.422194532,legitimate,DistilBERT
+URL-Phish,0,https|www|noslash|path,10000,0.2366,-2.534846874,legitimate,DistilBERT
+URL-Phish,0,https|www|slash|nopath,10000,1.0,8.813778125,legitimate,DistilBERT
+URL-Phish,0,https|www|slash|path,10000,1.0,9.274546875,legitimate,DistilBERT
+URL-Phish,0,http|nowww|noslash|nopath,10000,1.0,11.4877125,legitimate,DistilBERT
+URL-Phish,0,http|nowww|noslash|path,10000,1.0,11.50669375,legitimate,DistilBERT
+URL-Phish,0,http|nowww|slash|nopath,10000,1.0,11.5537,legitimate,DistilBERT
+URL-Phish,0,http|nowww|slash|path,10000,1.0,11.55998125,legitimate,DistilBERT
+URL-Phish,0,http|www|noslash|nopath,10000,1.0,11.38830625,legitimate,DistilBERT
+URL-Phish,0,http|www|noslash|path,10000,1.0,11.42396875,legitimate,DistilBERT
+URL-Phish,0,http|www|slash|nopath,10000,1.0,11.496975,legitimate,DistilBERT
+URL-Phish,0,http|www|slash|path,10000,1.0,11.50991875,legitimate,DistilBERT
+URL-Phish,0,none|nowww|noslash|nopath,10000,0.2174,-1.5781167,legitimate,DistilBERT
+URL-Phish,0,none|nowww|noslash|path,10000,0.4075,1.066450808,legitimate,DistilBERT
+URL-Phish,0,none|nowww|slash|nopath,10000,1.0,9.503925,legitimate,DistilBERT
+URL-Phish,0,none|nowww|slash|path,10000,1.0,9.87956875,legitimate,DistilBERT
+URL-Phish,0,none|www|noslash|nopath,10000,0.0031,-5.689792258,legitimate,DistilBERT
+URL-Phish,0,none|www|noslash|path,10000,0.2295,-2.267100689,legitimate,DistilBERT
+URL-Phish,0,none|www|slash|nopath,10000,1.0,8.134718749,legitimate,DistilBERT
+URL-Phish,0,none|www|slash|path,10000,1.0,8.711218752,legitimate,DistilBERT
+URL-Phish,1,https|nowww|noslash|nopath,10000,0.9888,11.094241747,phishing,DistilBERT
+URL-Phish,1,https|nowww|noslash|path,10000,0.995,11.415804049,phishing,DistilBERT
+URL-Phish,1,https|nowww|slash|nopath,10000,1.0,11.39979375,phishing,DistilBERT
+URL-Phish,1,https|nowww|slash|path,10000,1.0,11.5500875,phishing,DistilBERT
+URL-Phish,1,https|www|noslash|nopath,10000,0.2866,-1.414042027,phishing,DistilBERT
+URL-Phish,1,https|www|noslash|path,10000,0.789,7.398302224999999,phishing,DistilBERT
+URL-Phish,1,https|www|slash|nopath,10000,1.0,9.848328125,phishing,DistilBERT
+URL-Phish,1,https|www|slash|path,10000,1.0,11.083065625,phishing,DistilBERT
+URL-Phish,1,http|nowww|noslash|nopath,10000,1.0,11.51714375,phishing,DistilBERT
+URL-Phish,1,http|nowww|noslash|path,10000,1.0,11.5647375,phishing,DistilBERT
+URL-Phish,1,http|nowww|slash|nopath,10000,1.0,11.58135625,phishing,DistilBERT
+URL-Phish,1,http|nowww|slash|path,10000,1.0,11.6044375,phishing,DistilBERT
+URL-Phish,1,http|www|noslash|nopath,10000,1.0,11.43975,phishing,DistilBERT
+URL-Phish,1,http|www|noslash|path,10000,1.0,11.52710625,phishing,DistilBERT
+URL-Phish,1,http|www|slash|nopath,10000,1.0,11.54699375,phishing,DistilBERT
+URL-Phish,1,http|www|slash|path,10000,1.0,11.58449375,phishing,DistilBERT
+URL-Phish,1,none|nowww|noslash|nopath,10000,0.6676,4.001425727,phishing,DistilBERT
+URL-Phish,1,none|nowww|noslash|path,10000,0.9494,9.43888672,phishing,DistilBERT
+URL-Phish,1,none|nowww|slash|nopath,10000,1.0,10.65286875,phishing,DistilBERT
+URL-Phish,1,none|nowww|slash|path,10000,1.0,11.302284375,phishing,DistilBERT
+URL-Phish,1,none|www|noslash|nopath,10000,0.33,-0.49532372100000005,phishing,DistilBERT
+URL-Phish,1,none|www|noslash|path,10000,0.8108,7.607466811,phishing,DistilBERT
+URL-Phish,1,none|www|slash|nopath,10000,1.0,9.656134372,phishing,DistilBERT
+URL-Phish,1,none|www|slash|path,10000,1.0,11.070275,phishing,DistilBERT

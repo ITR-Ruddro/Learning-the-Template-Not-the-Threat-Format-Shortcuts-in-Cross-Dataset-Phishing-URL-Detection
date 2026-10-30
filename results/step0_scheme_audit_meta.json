@@ -1,0 +1,13 @@
+{
+ "phiusiil_sha256": "c3108daa50041de589e9ddb45d996b97bea0d78da259d99e1ac92b99e6fc5a48",
+ "phiusiil_partition_sizes": {
+  "source_train": 150931,
+  "source_validation": 37716,
+  "source_test": 47148
+ },
+ "urlphish_sha256": "6649701b56fa73b084e53ce3a58de8b1217d955cd3e2a720032dae8788bd4112",
+ "urlphish_cohort_size": 116126,
+ "legitphish_sha256": "69ffc8917611bb1d36af4a39412653e44e50e5d06d668491dc72aab349ca33f9",
+ "legitphish_unlabeled_rows_dropped": 1,
+ "legitphish_cohort_size": 71767
+}

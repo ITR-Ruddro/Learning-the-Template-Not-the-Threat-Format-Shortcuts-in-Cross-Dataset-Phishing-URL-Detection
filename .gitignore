@@ -1,0 +1,7 @@
+data/*.csv
+predictions/
+models/
+results/cache/
+logs/
+__pycache__/
+*.pyc

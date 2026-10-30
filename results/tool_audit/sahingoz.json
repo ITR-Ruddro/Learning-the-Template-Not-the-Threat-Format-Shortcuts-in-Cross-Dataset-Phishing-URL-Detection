@@ -1,0 +1,223 @@
+{
+ "name": "Sahingoz et al. (2019)",
+ "n": 73575,
+ "format_rule": {
+  "accuracy": 0.7564390078151546,
+  "balanced_accuracy": 0.7558481288382095,
+  "f1_positive": 0.771101573676681,
+  "mcc": 0.5152419323608384,
+  "tpr": 0.8119435104236719,
+  "fpr": 0.3002472527472527
+ },
+ "template_rule": {
+  "accuracy": 0.5052667346245328,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.6713318284424379,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "trivial": {
+  "accuracy": 0.5052667346245328,
+  "balanced_accuracy": 0.5,
+  "f1_positive": 0.6713318284424379,
+  "mcc": 0.0,
+  "tpr": 1.0,
+  "fpr": 1.0
+ },
+ "nmi_cell_label": 0.2663817670420651,
+ "flags": [
+  "scheme=https: 36.8% of negatives vs 1.8% of positives",
+  "scheme=http: 63.2% of negatives vs 97.7% of positives",
+  "format-only rule (4 cues, 24 cells) reaches MCC 0.515 / balanced accuracy 0.756 on this dataset",
+  "2 format cell(s) with >=100 URLs are >=99% one class, covering 0.6% of the data"
+ ],
+ "class_table": [
+  {
+   "index": "negative (0)",
+   "n": 36400.0,
+   "scheme=https": 36.79120879120879,
+   "scheme=http": 63.208791208791204,
+   "scheme=none": 0.0,
+   "scheme=other": 0.0,
+   "www": 58.1510989010989,
+   "trailing_slash": 25.91758241758242,
+   "path": 95.38736263736264,
+   "query": 4.043956043956045,
+   "port": 0.013736263736263736,
+   "ip_host": 0.0,
+   "uppercase": 31.17032967032967,
+   "median_length": 55.0
+  },
+  {
+   "index": "positive (1)",
+   "n": 37175.0,
+   "scheme=https": 1.7753866845998656,
+   "scheme=http": 97.69468728984533,
+   "scheme=none": 0.5272360457296571,
+   "scheme=other": 0.0026899798251513113,
+   "www": 28.457296570275727,
+   "trailing_slash": 39.927370544720915,
+   "path": 98.27841291190316,
+   "query": 21.49562878278413,
+   "port": 0.03765971755211836,
+   "ip_host": 0.5379959650302623,
+   "uppercase": 34.03093476798924,
+   "median_length": 59.0
+  }
+ ],
+ "cell_table": [
+  {
+   "cell": "http|nowww|noslash|path",
+   "n_negative": 5886,
+   "n_positive": 15730,
+   "n": 21616,
+   "share_positive": 0.7277017024426351,
+   "purity": 0.7277017024426351
+  },
+  {
+   "cell": "http|www|noslash|path",
+   "n_negative": 10821,
+   "n_positive": 5958,
+   "n": 16779,
+   "share_positive": 0.3550867155372787,
+   "purity": 0.6449132844627212
+  },
+  {
+   "cell": "http|nowww|slash|path",
+   "n_negative": 2258,
+   "n_positive": 9767,
+   "n": 12025,
+   "share_positive": 0.8122245322245322,
+   "purity": 0.8122245322245322
+  },
+  {
+   "cell": "http|www|slash|path",
+   "n_negative": 2785,
+   "n_positive": 4421,
+   "n": 7206,
+   "share_positive": 0.6135165140160977,
+   "purity": 0.6135165140160977
+  },
+  {
+   "cell": "https|nowww|noslash|path",
+   "n_negative": 5272,
+   "n_positive": 314,
+   "n": 5586,
+   "share_positive": 0.056211958467597564,
+   "purity": 0.9437880415324025
+  },
+  {
+   "cell": "https|www|noslash|path",
+   "n_negative": 4987,
+   "n_positive": 78,
+   "n": 5065,
+   "share_positive": 0.015399802566633761,
+   "purity": 0.9846001974333662
+  },
+  {
+   "cell": "https|www|slash|path",
+   "n_negative": 1585,
+   "n_positive": 37,
+   "n": 1622,
+   "share_positive": 0.02281134401972873,
+   "purity": 0.9771886559802713
+  },
+  {
+   "cell": "https|nowww|slash|path",
+   "n_negative": 1127,
+   "n_positive": 217,
+   "n": 1344,
+   "share_positive": 0.16145833333333334,
+   "purity": 0.8385416666666666
+  },
+  {
+   "cell": "http|www|slash|nopath",
+   "n_negative": 753,
+   "n_positive": 78,
+   "n": 831,
+   "share_positive": 0.09386281588447654,
+   "purity": 0.9061371841155235
+  },
+  {
+   "cell": "http|nowww|slash|nopath",
+   "n_negative": 505,
+   "n_positive": 296,
+   "n": 801,
+   "share_positive": 0.36953807740324596,
+   "purity": 0.630461922596754
+  },
+  {
+   "cell": "https|www|slash|nopath",
+   "n_negative": 236,
+   "n_positive": 2,
+   "n": 238,
+   "share_positive": 0.008403361344537815,
+   "purity": 0.9915966386554622
+  },
+  {
+   "cell": "https|nowww|slash|nopath",
+   "n_negative": 185,
+   "n_positive": 11,
+   "n": 196,
+   "share_positive": 0.05612244897959184,
+   "purity": 0.9438775510204082
+  },
+  {
+   "cell": "none|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 182,
+   "n": 182,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 63,
+   "n": 63,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|nowww|slash|path",
+   "n_negative": 0,
+   "n_positive": 12,
+   "n": 12,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "http|www|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 5,
+   "n": 5,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "none|nowww|slash|nopath",
+   "n_negative": 0,
+   "n_positive": 2,
+   "n": 2,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "https|nowww|noslash|nopath",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  },
+  {
+   "cell": "other|nowww|noslash|path",
+   "n_negative": 0,
+   "n_positive": 1,
+   "n": 1,
+   "share_positive": 1.0,
+   "purity": 1.0
+  }
+ ]
+}

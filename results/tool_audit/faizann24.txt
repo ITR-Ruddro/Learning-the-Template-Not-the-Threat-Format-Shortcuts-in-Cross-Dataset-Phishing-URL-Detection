@@ -1,0 +1,28 @@
+# faizann24 malicious-URL: 420,464 URLs (18.0% positive)
+
+Format properties (% of URLs per class):
+                     n  scheme=https  scheme=http  scheme=none  scheme=other  www  trailing_slash  path  query  port  ip_host  uppercase  median_length
+negative (0)  344821.0           0.0          0.0        100.0           0.0  0.0            26.3  87.3   13.7   0.0      0.0       35.2           42.0
+positive (1)   75643.0           0.0          0.1         99.8           0.0  3.0            25.3  92.7   16.1   2.0      5.4       25.1           38.0 
+
+Format cells (scheme|www|slash|path), top 10:
+                           n_negative  n_positive       n  share_positive  purity
+cell                                                                             
+none|nowww|noslash|path        254252       52438  306690           0.171   0.829
+none|nowww|slash|path           46649       15531   62180           0.250   0.750
+none|nowww|slash|nopath         43920        3242   47162           0.069   0.931
+none|nowww|noslash|nopath           0        2101    2101           1.000   1.000
+none|www|noslash|path               0        1814    1814           1.000   1.000
+none|www|slash|path                 0         194     194           1.000   1.000
+none|www|slash|nopath               0         170     170           1.000   1.000
+http|nowww|noslash|path             0          57      57           1.000   1.000
+none|www|noslash|nopath             0          35      35           1.000   1.000
+http|www|noslash|path               0          25      25           1.000   1.000 
+
+Format-only rule (majority per cell):   accuracy=0.831  balanced_accuracy=0.529  f1_positive=0.111  mcc=0.220  tpr=0.059  fpr=0.000
+Template rule (legit iff ^https://www.<host>$): accuracy=0.180  balanced_accuracy=0.500  f1_positive=0.305  mcc=0.000  tpr=1.000  fpr=1.000
+Trivial (all positive):                 accuracy=0.180  balanced_accuracy=0.500  f1_positive=0.305  mcc=0.000  tpr=1.000  fpr=1.000
+Normalized mutual information I(cell;label)/H(label) = 0.056
+
+Shortcut flags:
+  - 4 format cell(s) with >=100 URLs are >=99% one class, covering 1.0% of the data

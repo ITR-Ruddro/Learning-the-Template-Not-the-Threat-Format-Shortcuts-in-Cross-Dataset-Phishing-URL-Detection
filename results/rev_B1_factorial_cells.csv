@@ -1,0 +1,289 @@
+model,set,class,cell,scheme,www,slash,path,share_pred_phishing,mean_logit,is_source_template,train_support_legit,train_support_phish
+LightGBM,PhiUSIIL test,legitimate,https|www|slash|path,https,www,slash,path,0.0493200429836588,-1.6226887559127752,False,0,126
+LightGBM,PhiUSIIL test,phishing,https|www|slash|path,https,www,slash,path,0.6481325331084767,1.618831030855004,False,0,126
+LightGBM,PhiUSIIL test,legitimate,https|www|slash|nopath,https,www,slash,nopath,0.0493200429836588,-1.6226887559127752,False,0,272
+LightGBM,PhiUSIIL test,phishing,https|www|slash|nopath,https,www,slash,nopath,0.5193029446290693,0.6617946702814221,False,0,272
+LightGBM,PhiUSIIL test,legitimate,https|www|noslash|path,https,www,noslash,path,0.006805745976457801,-3.993778693328,False,0,770
+LightGBM,PhiUSIIL test,phishing,https|www|noslash|path,https,www,noslash,path,0.5703751467354463,0.6375466583682519,False,0,770
+LightGBM,PhiUSIIL test,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,0.006805745976457801,-3.993778693328,True,86294,412
+LightGBM,PhiUSIIL test,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.41613345898847615,-0.6413013424010462,True,86294,412
+LightGBM,PhiUSIIL test,legitimate,https|nowww|slash|path,https,nowww,slash,path,0.9711836563283556,3.731993478636847,False,0,1989
+LightGBM,PhiUSIIL test,phishing,https|nowww|slash|path,https,nowww,slash,path,0.9328406329051138,3.921038210504436,False,0,1989
+LightGBM,PhiUSIIL test,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,0.9711836563283556,3.731993478636847,False,0,16519
+LightGBM,PhiUSIIL test,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,0.8824793743696576,3.3493940249321974,False,0,16519
+LightGBM,PhiUSIIL test,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.9576709773841726,3.7844708239185967,False,0,10360
+LightGBM,PhiUSIIL test,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.8910106972207066,3.4107274359266935,False,0,10360
+LightGBM,PhiUSIIL test,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9576709773841726,3.7844708239185967,False,0,1054
+LightGBM,PhiUSIIL test,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.8271911115520063,2.637665584352566,False,0,1054
+LightGBM,PhiUSIIL test,legitimate,http|www|slash|path,http,www,slash,path,1.0,4.476227320213248,False,0,277
+LightGBM,PhiUSIIL test,phishing,http|www|slash|path,http,www,slash,path,1.0,5.074191434716703,False,0,277
+LightGBM,PhiUSIIL test,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,4.476227320213248,False,0,763
+LightGBM,PhiUSIIL test,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,4.907881168777812,False,0,763
+LightGBM,PhiUSIIL test,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,4.204130271831442,False,0,819
+LightGBM,PhiUSIIL test,phishing,http|www|noslash|path,http,www,noslash,path,1.0,4.958716817293326,False,0,819
+LightGBM,PhiUSIIL test,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,4.204130271831442,False,0,23292
+LightGBM,PhiUSIIL test,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,4.7600347225503805,False,0,23292
+LightGBM,PhiUSIIL test,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,5.540418167241529,False,0,891
+LightGBM,PhiUSIIL test,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,5.50538297092016,False,0,891
+LightGBM,PhiUSIIL test,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.540418167241529,False,0,2733
+LightGBM,PhiUSIIL test,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.422156557171804,False,0,2733
+LightGBM,PhiUSIIL test,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.522495198628327,False,0,3174
+LightGBM,PhiUSIIL test,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.455384052019395,False,0,3174
+LightGBM,PhiUSIIL test,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.522495198628327,False,0,1186
+LightGBM,PhiUSIIL test,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.349432263555726,False,0,1186
+LightGBM,PhiUSIIL test,legitimate,none|www|slash|path,none,www,slash,path,1.0,4.204052601322768,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|www|slash|path,none,www,slash,path,1.0,4.770512900319417,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,4.204052601322768,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,4.570896352425574,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|www|noslash|path,none,www,noslash,path,1.0,4.203636626644546,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|www|noslash|path,none,www,noslash,path,1.0,4.720008362598681,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,1.0,4.203636626644546,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|www|noslash|nopath,none,www,noslash,nopath,1.0,4.537657748965242,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,5.493883205299663,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,5.360781061459963,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.493883205299663,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.254917828855255,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.492603051357121,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.3316438650123965,False,0,0
+LightGBM,PhiUSIIL test,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.492603051357121,False,0,0
+LightGBM,PhiUSIIL test,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.228915582591648,False,0,0
+LightGBM,URL-Phish,legitimate,https|www|slash|path,https,www,slash,path,0.19847075136145328,-1.0197089194959055,False,0,126
+LightGBM,URL-Phish,phishing,https|www|slash|path,https,www,slash,path,0.860562248995984,2.5602872927337734,False,0,126
+LightGBM,URL-Phish,legitimate,https|www|slash|nopath,https,www,slash,nopath,0.045498998586633976,-1.863908551339572,False,0,272
+LightGBM,URL-Phish,phishing,https|www|slash|nopath,https,www,slash,nopath,0.4998192771084337,0.43752376027464895,False,0,272
+LightGBM,URL-Phish,legitimate,https|www|noslash|path,https,www,noslash,path,0.15731232709710696,-2.6189101689206438,False,0,770
+LightGBM,URL-Phish,phishing,https|www|noslash|path,https,www,noslash,path,0.7714859437751004,2.090520170546581,False,0,770
+LightGBM,URL-Phish,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,0.012522690888143131,-3.769212511876909,True,86294,412
+LightGBM,URL-Phish,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.3761646586345382,-0.6705271403339051,True,86294,412
+LightGBM,URL-Phish,legitimate,https|nowww|slash|path,https,nowww,slash,path,0.9322689548459699,3.542257683137842,False,0,1989
+LightGBM,URL-Phish,phishing,https|nowww|slash|path,https,nowww,slash,path,0.8866666666666667,3.8292100386698444,False,0,1989
+LightGBM,URL-Phish,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,0.9086268914655466,3.2174690641307766,False,0,16519
+LightGBM,URL-Phish,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,0.7339558232931727,2.4152068240979063,False,0,16519
+LightGBM,URL-Phish,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.8954176128180911,3.3437304141640545,False,0,10360
+LightGBM,URL-Phish,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.8301204819277109,3.150084903872299,False,0,10360
+LightGBM,URL-Phish,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.8601270019894299,2.9561998335345154,False,0,1054
+LightGBM,URL-Phish,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.6637550200803212,1.2528532511305441,False,0,1054
+LightGBM,URL-Phish,legitimate,http|www|slash|path,http,www,slash,path,1.0,4.54471224372962,False,0,277
+LightGBM,URL-Phish,phishing,http|www|slash|path,http,www,slash,path,1.0,5.2110408476165935,False,0,277
+LightGBM,URL-Phish,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,4.411170800880718,False,0,763
+LightGBM,URL-Phish,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,4.870742740388544,False,0,763
+LightGBM,URL-Phish,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,4.346860570489485,False,0,819
+LightGBM,URL-Phish,phishing,http|www|noslash|path,http,www,noslash,path,1.0,5.149523860231011,False,0,819
+LightGBM,URL-Phish,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,4.193476504273254,False,0,23292
+LightGBM,URL-Phish,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,4.760445702976475,False,0,23292
+LightGBM,URL-Phish,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,5.45786697387451,False,0,891
+LightGBM,URL-Phish,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,5.457335305876502,False,0,891
+LightGBM,URL-Phish,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.412179418061865,False,0,2733
+LightGBM,URL-Phish,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.252876308135595,False,0,2733
+LightGBM,URL-Phish,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.4246527607999075,False,0,3174
+LightGBM,URL-Phish,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.382965392480121,False,0,3174
+LightGBM,URL-Phish,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.374711086414692,False,0,1186
+LightGBM,URL-Phish,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.123055712875864,False,0,1186
+LightGBM,URL-Phish,legitimate,none|www|slash|path,none,www,slash,path,1.0,4.275847072309859,False,0,0
+LightGBM,URL-Phish,phishing,none|www|slash|path,none,www,slash,path,1.0,4.873608619741597,False,0,0
+LightGBM,URL-Phish,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,4.190864333596943,False,0,0
+LightGBM,URL-Phish,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,4.491192410427586,False,0,0
+LightGBM,URL-Phish,legitimate,none|www|noslash|path,none,www,noslash,path,1.0,4.257047554381892,False,0,0
+LightGBM,URL-Phish,phishing,none|www|noslash|path,none,www,noslash,path,1.0,4.810688595400291,False,0,0
+LightGBM,URL-Phish,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,1.0,4.190493661551009,False,0,0
+LightGBM,URL-Phish,phishing,none|www|noslash|nopath,none,www,noslash,nopath,1.0,4.462105807616539,False,0,0
+LightGBM,URL-Phish,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,5.382933050236055,False,0,0
+LightGBM,URL-Phish,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,5.277923906082626,False,0,0
+LightGBM,URL-Phish,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.343015844235649,False,0,0
+LightGBM,URL-Phish,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.02263791705728,False,0,0
+LightGBM,URL-Phish,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.377624906154551,False,0,0
+LightGBM,URL-Phish,phishing,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.2505678096648944,False,0,0
+LightGBM,URL-Phish,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.341556149477063,False,0,0
+LightGBM,URL-Phish,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.005795166974838,False,0,0
+LightGBM,LegitPhish,legitimate,https|www|slash|path,https,www,slash,path,0.11068529278443977,-1.2398803584879037,False,0,126
+LightGBM,LegitPhish,phishing,https|www|slash|path,https,www,slash,path,0.9957023357098737,4.475623853442168,False,0,126
+LightGBM,LegitPhish,legitimate,https|www|slash|nopath,https,www,slash,nopath,0.04887295504182635,-1.6184081573237912,False,0,272
+LightGBM,LegitPhish,phishing,https|www|slash|nopath,https,www,slash,nopath,0.8512411403205712,2.3540861179775567,False,0,272
+LightGBM,LegitPhish,legitimate,https|www|noslash|path,https,www,noslash,path,0.06943585939753576,-3.4633988804577354,False,0,770
+LightGBM,LegitPhish,phishing,https|www|noslash|path,https,www,noslash,path,0.9929855418407194,4.35927285197371,False,0,770
+LightGBM,LegitPhish,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,0.0054394857213499815,-3.972314168584959,True,86294,412
+LightGBM,LegitPhish,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.8048881350963702,1.5971204747704901,True,86294,412
+LightGBM,LegitPhish,legitimate,https|nowww|slash|path,https,nowww,slash,path,0.9694234969299872,3.7914602723350215,False,0,1989
+LightGBM,LegitPhish,phishing,https|nowww|slash|path,https,nowww,slash,path,0.9985133536438541,5.307032383026443,False,0,1989
+LightGBM,LegitPhish,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,0.9514979189846292,3.6164214001949873,False,0,16519
+LightGBM,LegitPhish,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,0.8633698713318049,4.026841021847949,False,0,16519
+LightGBM,LegitPhish,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.9564429060040384,3.8306846632625082,False,0,10360
+LightGBM,LegitPhish,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.996942952563418,5.261596919695286,False,0,10360
+LightGBM,LegitPhish,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9390118267606214,3.637436098374176,False,0,1054
+LightGBM,LegitPhish,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.8580671503501994,3.611586356067827,False,0,1054
+LightGBM,LegitPhish,legitimate,http|www|slash|path,http,www,slash,path,1.0,4.543170946084336,False,0,277
+LightGBM,LegitPhish,phishing,http|www|slash|path,http,www,slash,path,1.0,5.585395689971338,False,0,277
+LightGBM,LegitPhish,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,4.483096002577028,False,0,763
+LightGBM,LegitPhish,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,5.326734178229436,False,0,763
+LightGBM,LegitPhish,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,4.286281711983345,False,0,819
+LightGBM,LegitPhish,phishing,http|www|noslash|path,http,www,noslash,path,1.0,5.574825082320625,False,0,819
+LightGBM,LegitPhish,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,4.2127247764281295,False,0,23292
+LightGBM,LegitPhish,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,5.273979934186841,False,0,23292
+LightGBM,LegitPhish,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,5.538244540766563,False,0,891
+LightGBM,LegitPhish,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,5.690695038546267,False,0,891
+LightGBM,LegitPhish,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.517749312493247,False,0,2733
+LightGBM,LegitPhish,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,5.498985982151812,False,0,2733
+LightGBM,LegitPhish,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.51967061060023,False,0,3174
+LightGBM,LegitPhish,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,5.686423618262029,False,0,3174
+LightGBM,LegitPhish,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.495179028481393,False,0,1186
+LightGBM,LegitPhish,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,5.452406527064805,False,0,1186
+LightGBM,LegitPhish,legitimate,none|www|slash|path,none,www,slash,path,1.0,4.267030185984776,False,0,0
+LightGBM,LegitPhish,phishing,none|www|slash|path,none,www,slash,path,1.0,5.465087894176793,False,0,0
+LightGBM,LegitPhish,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,4.206596024057849,False,0,0
+LightGBM,LegitPhish,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,5.077385976502572,False,0,0
+LightGBM,LegitPhish,legitimate,none|www|noslash|path,none,www,noslash,path,1.0,4.257845943292954,False,0,0
+LightGBM,LegitPhish,phishing,none|www|noslash|path,none,www,noslash,path,1.0,5.366852383218435,False,0,0
+LightGBM,LegitPhish,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,1.0,4.206281242635036,False,0,0
+LightGBM,LegitPhish,phishing,none|www|noslash|nopath,none,www,noslash,nopath,1.0,5.019499181511496,False,0,0
+LightGBM,LegitPhish,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,5.487311518147892,False,0,0
+LightGBM,LegitPhish,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,5.657239585520194,False,0,0
+LightGBM,LegitPhish,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.4707209968575325,False,0,0
+LightGBM,LegitPhish,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,5.471261481271429,False,0,0
+LightGBM,LegitPhish,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.48352764101021,False,0,0
+LightGBM,LegitPhish,phishing,none|nowww|noslash|path,none,nowww,noslash,path,1.0,5.6582325911096705,False,0,0
+LightGBM,LegitPhish,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.469484809115972,False,0,0
+LightGBM,LegitPhish,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,1.0,5.464248120005759,False,0,0
+charCNN,PhiUSIIL test,legitimate,https|www|slash|path,https,www,slash,path,1.0,12.036094665527344,False,0,126
+charCNN,PhiUSIIL test,phishing,https|www|slash|path,https,www,slash,path,1.0,14.960444450378418,False,0,126
+charCNN,PhiUSIIL test,legitimate,https|www|slash|nopath,https,www,slash,nopath,1.0,12.036094665527344,False,0,272
+charCNN,PhiUSIIL test,phishing,https|www|slash|nopath,https,www,slash,nopath,1.0,13.50258731842041,False,0,272
+charCNN,PhiUSIIL test,legitimate,https|www|noslash|path,https,www,noslash,path,7.410975654944975e-05,-5.6754584312438965,False,0,770
+charCNN,PhiUSIIL test,phishing,https|www|noslash|path,https,www,noslash,path,0.3865548997238894,2.134303331375122,False,0,770
+charCNN,PhiUSIIL test,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,7.410975654944975e-05,-5.6754584312438965,True,86294,412
+charCNN,PhiUSIIL test,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.14929814989335846,-3.2390363216400146,True,86294,412
+charCNN,PhiUSIIL test,legitimate,https|nowww|slash|path,https,nowww,slash,path,1.0,21.807861328125,False,0,1989
+charCNN,PhiUSIIL test,phishing,https|nowww|slash|path,https,nowww,slash,path,1.0,23.92609214782715,False,0,1989
+charCNN,PhiUSIIL test,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,21.807861328125,False,0,16519
+charCNN,PhiUSIIL test,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,23.005699157714844,False,0,16519
+charCNN,PhiUSIIL test,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.9979866849470733,11.380824089050293,False,0,10360
+charCNN,PhiUSIIL test,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.99826397500124,16.632583618164062,False,0,10360
+charCNN,PhiUSIIL test,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9979866849470733,11.380824089050293,False,0,1054
+charCNN,PhiUSIIL test,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9958500735743927,13.542407035827637,False,0,1054
+charCNN,PhiUSIIL test,legitimate,http|www|slash|path,http,www,slash,path,1.0,25.951919555664062,False,0,277
+charCNN,PhiUSIIL test,phishing,http|www|slash|path,http,www,slash,path,1.0,27.146203994750977,False,0,277
+charCNN,PhiUSIIL test,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,25.951919555664062,False,0,763
+charCNN,PhiUSIIL test,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,26.555831909179688,False,0,763
+charCNN,PhiUSIIL test,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,18.527902603149414,False,0,819
+charCNN,PhiUSIIL test,phishing,http|www|noslash|path,http,www,noslash,path,1.0,21.875320434570312,False,0,819
+charCNN,PhiUSIIL test,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,18.527902603149414,False,0,23292
+charCNN,PhiUSIIL test,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,19.722280502319336,False,0,23292
+charCNN,PhiUSIIL test,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,35.00114059448242,False,0,891
+charCNN,PhiUSIIL test,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,35.520721435546875,False,0,891
+charCNN,PhiUSIIL test,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,35.00114059448242,False,0,2733
+charCNN,PhiUSIIL test,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,35.374568939208984,False,0,2733
+charCNN,PhiUSIIL test,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,33.000213623046875,False,0,3174
+charCNN,PhiUSIIL test,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,33.942256927490234,False,0,3174
+charCNN,PhiUSIIL test,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,33.000213623046875,False,0,1186
+charCNN,PhiUSIIL test,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,33.41537857055664,False,0,1186
+charCNN,PhiUSIIL test,legitimate,none|www|slash|path,none,www,slash,path,1.0,20.08620262145996,False,0,0
+charCNN,PhiUSIIL test,phishing,none|www|slash|path,none,www,slash,path,1.0,22.267736434936523,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,20.08620262145996,False,0,0
+charCNN,PhiUSIIL test,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,21.142738342285156,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|www|noslash|path,none,www,noslash,path,0.05471770358567706,-2.1617698669433594,False,0,0
+charCNN,PhiUSIIL test,phishing,none|www|noslash|path,none,www,noslash,path,0.6640874295256518,7.481733798980713,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,0.05471770358567706,-2.1617698669433594,False,0,0
+charCNN,PhiUSIIL test,phishing,none|www|noslash|nopath,none,www,noslash,nopath,0.5048030024965693,1.55568265914917,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,23.90755271911621,False,0,0
+charCNN,PhiUSIIL test,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,25.57161521911621,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,23.90755271911621,False,0,0
+charCNN,PhiUSIIL test,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,24.604995727539062,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,0.5813786885043416,0.5186458230018616,False,0,0
+charCNN,PhiUSIIL test,phishing,none|nowww|noslash|path,none,nowww,noslash,path,0.9061058479242101,10.450125694274902,False,0,0
+charCNN,PhiUSIIL test,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.5813786885043416,0.5186458230018616,False,0,0
+charCNN,PhiUSIIL test,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.8580096886728502,4.5140299797058105,False,0,0
+charCNN,URL-Phish,legitimate,https|www|slash|path,https,www,slash,path,0.999993301582836,12.585970878601074,False,0,126
+charCNN,URL-Phish,phishing,https|www|slash|path,https,www,slash,path,1.0,16.530946731567383,False,0,126
+charCNN,URL-Phish,legitimate,https|www|slash|nopath,https,www,slash,nopath,0.99998325395709,11.58739948272705,False,0,272
+charCNN,URL-Phish,phishing,https|www|slash|nopath,https,www,slash,nopath,1.0,13.245101928710938,False,0,272
+charCNN,URL-Phish,legitimate,https|www|noslash|path,https,www,noslash,path,0.2407612081265197,-1.4717016220092773,False,0,770
+charCNN,URL-Phish,phishing,https|www|noslash|path,https,www,noslash,path,0.6667469879518073,7.8508620262146,False,0,770
+charCNN,URL-Phish,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,0.0002712858951429777,-5.650575160980225,True,86294,412
+charCNN,URL-Phish,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.12273092369477911,-3.6306393146514893,True,86294,412
+charCNN,URL-Phish,legitimate,https|nowww|slash|path,https,nowww,slash,path,1.0,22.13384437561035,False,0,1989
+charCNN,URL-Phish,phishing,https|nowww|slash|path,https,nowww,slash,path,1.0,24.848526000976562,False,0,1989
+charCNN,URL-Phish,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,21.439109802246094,False,0,16519
+charCNN,URL-Phish,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,22.735937118530273,False,0,16519
+charCNN,URL-Phish,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.997250299754168,13.888908386230469,False,0,10360
+charCNN,URL-Phish,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.9947590361445783,19.83042335510254,False,0,10360
+charCNN,URL-Phish,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9947149488575849,11.334556579589844,False,0,1054
+charCNN,URL-Phish,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9893172690763051,13.051959991455078,False,0,1054
+charCNN,URL-Phish,legitimate,http|www|slash|path,http,www,slash,path,1.0,26.26750373840332,False,0,277
+charCNN,URL-Phish,phishing,http|www|slash|path,http,www,slash,path,1.0,27.901708602905273,False,0,277
+charCNN,URL-Phish,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,25.868188858032227,False,0,763
+charCNN,URL-Phish,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,26.523361206054688,False,0,763
+charCNN,URL-Phish,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,20.334657669067383,False,0,819
+charCNN,URL-Phish,phishing,http|www|noslash|path,http,www,noslash,path,1.0,24.28267478942871,False,0,819
+charCNN,URL-Phish,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,18.65005874633789,False,0,23292
+charCNN,URL-Phish,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,19.602041244506836,False,0,23292
+charCNN,URL-Phish,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,35.111080169677734,False,0,891
+charCNN,URL-Phish,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,35.7552490234375,False,0,891
+charCNN,URL-Phish,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,34.95651626586914,False,0,2733
+charCNN,URL-Phish,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,35.33798599243164,False,0,2733
+charCNN,URL-Phish,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,33.47432327270508,False,0,3174
+charCNN,URL-Phish,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,34.54035186767578,False,0,3174
+charCNN,URL-Phish,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,33.046504974365234,False,0,1186
+charCNN,URL-Phish,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,33.318756103515625,False,0,1186
+charCNN,URL-Phish,legitimate,none|www|slash|path,none,www,slash,path,1.0,20.512971878051758,False,0,0
+charCNN,URL-Phish,phishing,none|www|slash|path,none,www,slash,path,1.0,23.497385025024414,False,0,0
+charCNN,URL-Phish,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,19.72412872314453,False,0,0
+charCNN,URL-Phish,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,20.99466896057129,False,0,0
+charCNN,URL-Phish,legitimate,none|www|noslash|path,none,www,noslash,path,0.3028153447340393,3.046048402786255,False,0,0
+charCNN,URL-Phish,phishing,none|www|noslash|path,none,www,noslash,path,0.8637349397590363,13.948529243469238,False,0,0
+charCNN,URL-Phish,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,0.08701243896067361,-2.0617504119873047,False,0,0
+charCNN,URL-Phish,phishing,none|www|noslash|nopath,none,www,noslash,nopath,0.4589759036144579,0.9206779599189758,False,0,0
+charCNN,URL-Phish,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,24.248632431030273,False,0,0
+charCNN,URL-Phish,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,26.632421493530273,False,0,0
+charCNN,URL-Phish,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,23.5396785736084,False,0,0
+charCNN,URL-Phish,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,24.47724723815918,False,0,0
+charCNN,URL-Phish,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,0.6719215749318437,5.882200717926025,False,0,0
+charCNN,URL-Phish,phishing,none|nowww|noslash|path,none,nowww,noslash,path,0.9831124497991968,16.993757247924805,False,0,0
+charCNN,URL-Phish,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.5814895940089357,0.5800119042396545,False,0,0
+charCNN,URL-Phish,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.8018875502008033,3.794853925704956,False,0,0
+charCNN,LegitPhish,legitimate,https|www|slash|path,https,www,slash,path,1.0,12.392280578613281,False,0,126
+charCNN,LegitPhish,phishing,https|www|slash|path,https,www,slash,path,1.0,18.33513069152832,False,0,126
+charCNN,LegitPhish,legitimate,https|www|slash|nopath,https,www,slash,nopath,1.0,12.109657287597656,False,0,272
+charCNN,LegitPhish,phishing,https|www|slash|nopath,https,www,slash,nopath,1.0,15.0722017288208,False,0,272
+charCNN,LegitPhish,legitimate,https|www|noslash|path,https,www,noslash,path,0.06589195203362591,-4.3380818367004395,False,0,770
+charCNN,LegitPhish,phishing,https|www|noslash|path,https,www,noslash,path,0.9946554016562498,15.419899940490723,False,0,770
+charCNN,LegitPhish,legitimate,https|www|noslash|nopath,https,www,noslash,nopath,0.0,-5.673939228057861,True,86294,412
+charCNN,LegitPhish,phishing,https|www|noslash|nopath,https,www,noslash,nopath,0.662311421003591,1.2232195138931274,True,86294,412
+charCNN,LegitPhish,legitimate,https|nowww|slash|path,https,nowww,slash,path,1.0,21.984521865844727,False,0,1989
+charCNN,LegitPhish,phishing,https|nowww|slash|path,https,nowww,slash,path,1.0,25.880584716796875,False,0,1989
+charCNN,LegitPhish,legitimate,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,21.806631088256836,False,0,16519
+charCNN,LegitPhish,phishing,https|nowww|slash|nopath,https,nowww,slash,nopath,1.0,23.52696990966797,False,0,16519
+charCNN,LegitPhish,legitimate,https|nowww|noslash|path,https,nowww,noslash,path,0.9982280463180451,12.12755298614502,False,0,10360
+charCNN,LegitPhish,phishing,https|nowww|noslash|path,https,nowww,noslash,path,0.9999790613189274,24.16496467590332,False,0,10360
+charCNN,LegitPhish,legitimate,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9978159640664277,11.300246238708496,False,0,1054
+charCNN,LegitPhish,phishing,https|nowww|noslash|nopath,https,nowww,noslash,nopath,0.9996911544541809,15.891369819641113,False,0,1054
+charCNN,LegitPhish,legitimate,http|www|slash|path,http,www,slash,path,1.0,26.08197593688965,False,0,277
+charCNN,LegitPhish,phishing,http|www|slash|path,http,www,slash,path,1.0,28.874841690063477,False,0,277
+charCNN,LegitPhish,legitimate,http|www|slash|nopath,http,www,slash,nopath,1.0,25.97267723083496,False,0,763
+charCNN,LegitPhish,phishing,http|www|slash|nopath,http,www,slash,nopath,1.0,27.434282302856445,False,0,763
+charCNN,LegitPhish,legitimate,http|www|noslash|path,http,www,noslash,path,1.0,19.050146102905273,False,0,819
+charCNN,LegitPhish,phishing,http|www|noslash|path,http,www,noslash,path,1.0,27.39737892150879,False,0,819
+charCNN,LegitPhish,legitimate,http|www|noslash|nopath,http,www,noslash,nopath,1.0,18.523012161254883,False,0,23292
+charCNN,LegitPhish,phishing,http|www|noslash|nopath,http,www,noslash,nopath,1.0,21.685083389282227,False,0,23292
+charCNN,LegitPhish,legitimate,http|nowww|slash|path,http,nowww,slash,path,1.0,34.9771614074707,False,0,891
+charCNN,LegitPhish,phishing,http|nowww|slash|path,http,nowww,slash,path,1.0,36.504737854003906,False,0,891
+charCNN,LegitPhish,legitimate,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,34.95689392089844,False,0,2733
+charCNN,LegitPhish,phishing,http|nowww|slash|nopath,http,nowww,slash,nopath,1.0,35.81779098510742,False,0,2733
+charCNN,LegitPhish,legitimate,http|nowww|noslash|path,http,nowww,noslash,path,1.0,33.05720520019531,False,0,3174
+charCNN,LegitPhish,phishing,http|nowww|noslash|path,http,nowww,noslash,path,1.0,35.890625,False,0,3174
+charCNN,LegitPhish,legitimate,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,32.9293327331543,False,0,1186
+charCNN,LegitPhish,phishing,http|nowww|noslash|nopath,http,nowww,noslash,nopath,1.0,33.97996520996094,False,0,1186
+charCNN,LegitPhish,legitimate,none|www|slash|path,none,www,slash,path,1.0,20.334989547729492,False,0,0
+charCNN,LegitPhish,phishing,none|www|slash|path,none,www,slash,path,1.0,25.052566528320312,False,0,0
+charCNN,LegitPhish,legitimate,none|www|slash|nopath,none,www,slash,nopath,1.0,20.14839744567871,False,0,0
+charCNN,LegitPhish,phishing,none|www|slash|nopath,none,www,slash,nopath,1.0,22.461755752563477,False,0,0
+charCNN,LegitPhish,legitimate,none|www|noslash|path,none,www,noslash,path,0.11793794041290641,-0.6202014088630676,False,0,0
+charCNN,LegitPhish,phishing,none|www|noslash|path,none,www,noslash,path,0.9976548677198823,22.302026748657227,False,0,0
+charCNN,LegitPhish,legitimate,none|www|noslash|nopath,none,www,noslash,nopath,0.05373552561091193,-2.1667730808258057,False,0,0
+charCNN,LegitPhish,phishing,none|www|noslash|nopath,none,www,noslash,nopath,0.8416250510380351,7.93213415145874,False,0,0
+charCNN,LegitPhish,legitimate,none|nowww|slash|path,none,nowww,slash,path,1.0,24.078516006469727,False,0,0
+charCNN,LegitPhish,phishing,none|nowww|slash|path,none,nowww,slash,path,1.0,27.959007263183594,False,0,0
+charCNN,LegitPhish,legitimate,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,23.938528060913086,False,0,0
+charCNN,LegitPhish,phishing,none|nowww|slash|nopath,none,nowww,slash,nopath,1.0,25.602807998657227,False,0,0
+charCNN,LegitPhish,legitimate,none|nowww|noslash|path,none,nowww,noslash,path,0.6187415008035604,2.0702946186065674,False,0,0
+charCNN,LegitPhish,phishing,none|nowww|noslash|path,none,nowww,noslash,path,0.9996335730812316,25.211156845092773,False,0,0
+charCNN,LegitPhish,legitimate,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.5757201137347014,0.48112455010414124,False,0,0
+charCNN,LegitPhish,phishing,none|nowww|noslash|nopath,none,nowww,noslash,nopath,0.9440570788446037,10.866450309753418,False,0,0

@@ -1,0 +1,2 @@
+file,saved_as,rows,source_labels_inverted,val_acc_after_sign_fix,sha256_upload
+transformer_distilbert-base-cased_s42.csv.gz,predictions/transformer/DistilBERT_s42.csv.gz,1447962,False,0.9982765934881748,37a73b494d0fe30ba0c2db434379dc66d36a9be0a3768d438ff4c9ea5fa7ad47
